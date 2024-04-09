@@ -122,7 +122,6 @@ footer > img {
    bottom: -50px;
    animation: toTop 2s ease-in-out;
 }
-
 /* Animartion */
 
 @keyframes swing {
