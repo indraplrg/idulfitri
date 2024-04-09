@@ -76,7 +76,8 @@ header > img:nth-child(odd) {
    margin-top: 5px;
    opacity: 0;
    animation: fade 2s 0.5s ease-in-out forwards,
-      swing 4s 3s ease-in-out infinite alternate, toBottom 2s 0.2s ease-in-out;
+      swing 4s 3s ease-in-out infinite alternate both,
+      toBottom 2s 0.2s ease-in-out;
 }
 
 main {
@@ -126,13 +127,13 @@ footer > img {
 
 @keyframes swing {
    0% {
-      transform: rotateZ(0);
+      transform: rotateZ(0deg);
    }
    50% {
-      transform: rotateZ(8deg);
+      transform: rotateZ(-8deg);
    }
    100% {
-      transform: rotateZ(-8deg);
+      transform: rotateZ(8deg);
    }
 }
 
